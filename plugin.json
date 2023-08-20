@@ -1,10 +1,10 @@
 {
     "name": "PurrCast - Podcast Finder",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Search for public podcast shows and episodes on Spreaker.",
     "author_name": "Eugenio Petullà",
     "author_url": "https://github.com/EugenioPetulla",
     "plugin_url": "https://github.com/EugenioPetulla/PurrCast_Podcast_Finder",
     "tags": "podcast, multimedia, entertainment",
-    "thumb": "https://raw.githubusercontent.com/EugenioPetulla/PurrCast_Podcast_Finder/logo.jpg"
+    "thumb": "https://raw.githubusercontent.com/EugenioPetulla/PurrCast_Podcast_Finder/main/logo.jpg"
 }

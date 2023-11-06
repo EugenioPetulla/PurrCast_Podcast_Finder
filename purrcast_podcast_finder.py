@@ -22,13 +22,15 @@ def search_shows(query, cat):
     Search for a podcast (a show). The input is a query.
 
     For example, search for a podcast about curious animals.
-    Query -> 'curious animals'
+    Query -> curious animals
     """
     endpoint = f"{SPREAKER_API_BASE_URL}/search"
+    settings = cat.mad_hatter.plugins["curiouscat"].load_settings()
+
     params = {
         "type": "shows",
         "q": query,
-        "limit": 10,
+        "limit": settings["number_of_results"],
     }
     response = requests.get(endpoint, params=params)
 
@@ -51,13 +53,15 @@ def search_episodes(query, cat):
     Search for a podcast episode. The input is a query.
 
     For example, search for a podcast episode about Alice in wonderland.
-    Query -> 'alice in wonderland'
+    Query -> alice in wonderland
     """
     endpoint = f"{SPREAKER_API_BASE_URL}/search"
+    settings = cat.mad_hatter.plugins["curiouscat"].load_settings()
+    
     params = {
         "type": "episodes",
         "q": query,
-        "limit": 10,
+        "limit": settings["number_of_results"],
     }
     response = requests.get(endpoint, params=params)
 

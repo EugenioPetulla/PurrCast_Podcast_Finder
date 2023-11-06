@@ -2,7 +2,7 @@
 
 [![awesome plugin](https://custom-icon-badges.demolab.com/static/v1?label=&message=awesome+plugin&color=F4F4F5&style=for-the-badge&logo=cheshire_cat_black)](https://github.com/cheshire-cat-ai/awesome-plugins)
 
-![PurrCast Logo](https://raw.githubusercontent.com/EugenioPetulla/PurrCast_Podcast_Finder/main/logo.jpg)
+![PurrCast Logo](https://raw.githubusercontent.com/EugenioPetulla/PurrCast_Podcast_Finder/main/logo.png)
 
 Search for public podcast shows and episodes using Spreaker (iHeart) from The Cheshire Cat.
 

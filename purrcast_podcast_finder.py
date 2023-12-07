@@ -25,7 +25,7 @@ def search_shows(query, cat):
     Query -> curious animals
     """
     endpoint = f"{SPREAKER_API_BASE_URL}/search"
-    settings = cat.mad_hatter.plugins["curiouscat"].load_settings()
+    settings = cat.mad_hatter.get_plugin().load_settings()
 
     params = {
         "type": "shows",
@@ -56,7 +56,7 @@ def search_episodes(query, cat):
     Query -> alice in wonderland
     """
     endpoint = f"{SPREAKER_API_BASE_URL}/search"
-    settings = cat.mad_hatter.plugins["curiouscat"].load_settings()
+    settings = cat.mad_hatter.get_plugin().load_settings()
     
     params = {
         "type": "episodes",
